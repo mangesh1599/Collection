@@ -37,9 +37,16 @@ class mystack
 	}
 	public void pop()
 	{
-    if(al.size()>0)
-		al.remove(0);
+   		 if(al.size()>0)
+		 {
+			al.remove(0);
+		 }
+		else
+		{
+			System.out.println("Queue is empty");
+		}
 	}
+
 }
 
 
