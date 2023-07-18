@@ -2,8 +2,7 @@ Write a program to iterate through all elements in a linked list starting at the
 
 
 
-
-  import java.util.*;
+ import java.util.*;
 public class MyClass 
 {
 	//StartOfMainMethod
@@ -22,18 +21,17 @@ public class MyClass
 	public static void myCode(LinkedList<Integer> list1,int pos) 
 	{
 		//write code here
-		for(int data:list1)
+		for(int i=pos;i<list1.size();i++)
 		{
-			System.out.println(data);
+			System.out.println(list1.get(i));
 		}
 	}
 }
 
 
-
 Output-
-        4
-        6
-        3
-        9
-        7
+	6
+	3
+	9
+	7
+
